@@ -1,0 +1,73 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Cabeçalho e menu */
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 15px; 
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Parte principal */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Formulário de contato */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  input, textarea {
+    width: 100%; 
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Botão de envio */
+  input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
